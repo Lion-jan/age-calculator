@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: #f0f0f0;
+}
+
+.attribution {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+}
+
+.attribution a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.age-calculator{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calc{
+    width: 854px;
+    height: 662px;
+    background-color: red;
+    border-radius: 30px 30px 200px 30px;
+    background-color: #fff;
+    padding: 60px;
+}
+
+.calc h4{
+    color: #6c6c6c;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+input{
+    border: 1px solid #dcdcdc;
+    width: 161px;
+    height: 73px;
+    border-radius: 8px;
+    padding: 23px;
+    font-size: 32px;
+    font-weight: 900;
+    outline-color:#7865a7;
+}
+
+
+
+.calc_input{
+    display: flex;
+    gap: 28px;
+    border-bottom: 1.5px solid #ececec;
+    padding-bottom: 50px    ;
+    position: relative;
+}
+
+.calc .img {
+    width: 100px;
+    height: 100px;
+    background-color: #834ffb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+
+    position: absolute;
+    top: 118px;
+    right: 10px;
+    
+}
+
+.calc .img:hover{
+    background-color: #000;
+    transition: all smooth linear;
+}
+
+.calc_text{
+    padding-top: 55px;
+    font-size: 48px;
+}
+
+.calc_text h1{
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-weight: 800;
+    line-height: 115%   ;
+  
+
+}
+
+.calc_text user{
+    color: blueviolet;
+    font-size: 85px;
+    font-weight: 800;
+}
+
+
+
